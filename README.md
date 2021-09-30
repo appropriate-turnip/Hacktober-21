@@ -1,5 +1,5 @@
 <h1 style="text-align: center">Vid Meet | Hacktober Fest'21</h1>
-This project is a beginner friendly react app for making video calls.
+This project made with reactJs, webRTC and firebase , is a beginner friendly react app for making video calls.
 
 * Documentation will be available soon
 
