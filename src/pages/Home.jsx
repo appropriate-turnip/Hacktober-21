@@ -1,5 +1,5 @@
 import React,{ useContext } from 'react'
-import {Menu} from '../components'
+import {Menu, VideoChatWindow } from '../components'
 import { SocketContext } from '../Context'
 
 const Home = () => {
@@ -11,7 +11,15 @@ const Home = () => {
             </div>
             <div className="home__body">
                 <h2>Welcome to home page</h2>
+
                 {data1} {data2} 
+
+                <div className="videochatwindow">
+                    Chat window
+                </div>
+            </div>
+            <div className="chat-sidebar">
+                Yet to be created here side chat section with 
             </div>
         </div>
     )
