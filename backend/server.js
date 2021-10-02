@@ -14,7 +14,7 @@ app.use(cors())
 app.use(express.json())
 app.use(cookie_pareser())
 
-// app.use('/api/user', auth)
+app.use('/auth', auth)
 
 
 app.listen(port, () => {
