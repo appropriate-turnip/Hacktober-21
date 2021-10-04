@@ -1,14 +1,14 @@
 import React,{useContext} from 'react'
+import'./css/VideoChatWindow.css'
 import {SocketContext} from '../Context'
-const Menu = () => {
+const VideoChatWindow = () => {
     // Passing data from contextApi
     const {data1 ,data2} = useContext(SocketContext)
     return (
-        <div className="menu__sidemenu">
-            Menu Goes Here ....
-            
+        <div>
+            VideoChatWindow will come here
         </div>
     )
 }
 
-export default Menu
+export default VideoChatWindow
