@@ -2,6 +2,12 @@
 This project is a beginner friendly react app for making video calls.
 
 * Documentation will be available soon
+ ## Set Up
+ ```
+ npm install
+ npm start
+ ```
+
 
 **Feel free to add your favorite resources as well and help others in their journey of learning.**
 
